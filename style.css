@@ -1,0 +1,222 @@
+/*
+Theme Name: Inspiring Minds
+Description: Bootstrap 3 Responsive Theme
+Author: Unwired Web Solutions
+Author URI: http://unwiredwebsolutions.com/
+Version: 1
+Tags: bootstrap, bootstrap 3, responsive
+*/
+@import url('css/bootstrap.css');
+@import url('css/font-face.css');
+
+body {
+    font-size: 14px;
+    padding-bottom:0!important;
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 960px;
+    }
+}
+header{
+    background-color: #35b2b2;
+    height: 140px;
+    border-bottom:8px solid   #ffc527;
+}
+.jumbotron{
+    margin: 0;
+    padding:0;
+    background: #fff;
+}
+
+.carousel-container{
+    background: url('images/bg-carousel.png') #ffc527;
+    -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.19);
+    box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.19);
+}
+.home-topcontent .container .entry h1{
+    font-family: 'scruff_letplain';
+    font-size: 72px;
+}
+.home-topcontent .container .entry{
+    padding-bottom: 10px;
+}
+.footer-bottom{
+ padding-top: 20px;
+}
+.home-topcontent .container .entry p,
+.footer-bottom p{
+    font-family: 'robotolight';
+    font-size: 14px!important;
+    color:#333333;
+}
+.home-topcontent{
+     background: url('images/bg-body.png');
+ }
+.home-bottomcontent{
+  padding-bottom: 20px;
+}
+.home-bottomcontent .entry h2{
+    font-family:'BerlinSansFB-Reg';
+    font-size: 36px;
+}
+.home-bottomcontent .entry p{
+    font-size: 14px;
+    font-family:'robotoregular';
+    color:#666666;
+}
+.clouds-bg{
+    background: url('images/clouds.png') repeat-x;
+    height: 67px;
+}
+.site-title{
+    width: 310px;
+    font-size: 30px;
+    font-family:'ArialRoundedMTBold-Regular';
+}
+.navbar-brand{
+    padding-top: 10px;
+    color:#fff;
+}
+.navbar-brand h3{
+    color:#fff;
+}
+
+.event-top .page-title{
+    font-family:'kg_wake_me_upregular';
+    font-size: 64px;
+    color: #fdfafa;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.inner-page .event-top .event-date p{
+    font-family:'Corbel-Regular';
+    color: #fdfafa;
+    font-size:30px;
+    margin-left: 60px;
+}
+.event-rows{
+    font-family: 'prime_minister_of_canadaRg';
+    font-size: 20px;
+    color:#040404;
+    overflow: hidden;
+    clear: both;
+    padding-bottom: 25px;
+    min-height: 911px;
+}
+.event-rows h3{
+    font-family: 'prime_minister_of_canadaRg';
+    font-size: 30px;
+    color:#040404;
+}
+.navbar-inverse{
+    background-color: #35b2b2;
+}
+
+.event-rows .row-item{
+    margin-top:25px;
+-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.33);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.33);
+height: 184px;
+overflow: hidden;
+
+    background: -moz-linear-gradient(left,  rgba(241,240,242,1) 0%, rgba(241,240,242,1) 45%, rgba(241,240,242,0.36) 80%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(241,240,242,1)), color-stop(45%,rgba(241,240,242,1)), color-stop(80%,rgba(241,240,242,0.36)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(241,240,242,1) 0%,rgba(241,240,242,1) 45%,rgba(241,240,242,0.36) 80%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(241,240,242,1) 0%,rgba(241,240,242,1) 45%,rgba(241,240,242,0.36) 80%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(241,240,242,1) 0%,rgba(241,240,242,1) 45%,rgba(241,240,242,0.36) 80%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(241,240,242,1) 0%,rgba(241,240,242,1) 45%,rgba(241,240,242,0.36) 80%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f0f2', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+.row-item .right-content{
+    padding-left: 10px;
+}
+.inner-page .entry{
+    font-family:'Corbel-Regular';
+    font-size:30px;
+}
+.carousel{
+    margin-bottom:0!important;
+}
+#myCarousel,
+.carousel,
+.carousel .item{
+    height: 523px!important;
+}
+
+.carousel-inner > .item > img {
+    height: 523px!important;
+}
+
+.glyphicon-chevron-left,
+.glyphicon-chevron-right{
+   font-family:'BerlinSansFB-Reg'!important;
+
+    width: 65px!important;
+    height: 65px!important;
+    font-size: 72px!important;
+
+    background: #35b2b2;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.glyphicon-chevron-right:before,
+.glyphicon-chevron-left:before{
+    content:''!important;
+}
+.glyphicon-chevron-left {
+    left: -12%!important;
+}
+.glyphicon-chevron-right {
+    right: -12%!important;
+}
+
+.footer-content{
+	background: url('images/bg-footer2.png')  no-repeat bottom #0099ff; 
+
+    color:#fff;
+padding-bottom: 60px;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+.footer-left {
+    padding-top: 32px;
+}
+
+.footer-left p{
+    font-family:'BerlinSansFB-Reg';
+    font-size: 18px;
+}
+.footer-left h3{
+    font-family:'BerlinSansFB-Reg';
+    font-size: 25px;
+}
+.footer-right{
+    font-family:'BerlinSansFB-Reg';
+    font-size: 18px;
+	padding-top: 50px;
+}
+
+#footer-bar{
+	height: 175px; 
+	background: #333;
+}

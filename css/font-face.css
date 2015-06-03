@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'scruff_letplain';
+    src: url('../fonts/89198____1-webfont.eot');
+    src: url('../fonts/89198____1-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/89198____1-webfont.woff2') format('woff2'),
+    url('../fonts/89198____1-webfont.woff') format('woff'),
+    url('../fonts/89198____1-webfont.ttf') format('truetype'),
+    url('../fonts/89198____1-webfont.svg#scruff_letplain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'prime_minister_of_canadaRg';
+    src: url('../fonts/prime_minister_of_canada-webfont.eot');
+    src: url('../fonts/prime_minister_of_canada-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/prime_minister_of_canada-webfont.woff2') format('woff2'),
+    url('../fonts/prime_minister_of_canada-webfont.woff') format('woff'),
+    url('../fonts/prime_minister_of_canada-webfont.ttf') format('truetype'),
+    url('../fonts/prime_minister_of_canada-webfont.svg#prime_minister_of_canadaRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'ArialRoundedMTBold-Regular';
+    src: url('../fonts/ArialRoundedMTBold_gdi.eot');
+    src: url('../fonts/ArialRoundedMTBold_gdi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ArialRoundedMTBold_gdi.woff') format('woff'),
+    url('../fonts/ArialRoundedMTBold_gdi.ttf') format('truetype'),
+    url('../fonts/ArialRoundedMTBold_gdi.svg#ArialRoundedMTBold-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-25CA;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-light-webfont.woff') format('woff'),
+    url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-bold-webfont.woff') format('woff'),
+    url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff'),
+    url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family:'BerlinSansFB-Reg';
+    src: url('../fonts/BerlinSansFB-Reg_gdi.eot');
+    src: url('../fonts/BerlinSansFB-Reg_gdi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BerlinSansFB-Reg_gdi.woff') format('woff'),
+    url('../fonts/BerlinSansFB-Reg_gdi.ttf') format('truetype'),
+    url('../fonts/BerlinSansFB-Reg_gdi.svg#BerlinSansFB-Reg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-25CA;
+}
+
+@font-face {
+    font-family:'BerlinSansFBDemi-Bold';
+    src: url('../fonts/BerlinSansFBDemi-Bold_gdi.eot');
+    src: url('../fonts/BerlinSansFBDemi-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BerlinSansFBDemi-Bold_gdi.woff') format('woff'),
+    url('../fonts/BerlinSansFBDemi-Bold_gdi.ttf') format('truetype'),
+    url('../fonts/BerlinSansFBDemi-Bold_gdi.svg#BerlinSansFBDemi-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-25CA;
+}
+
+
+@font-face {
+    font-family: 'kg_wake_me_upregular';
+    src: url('../fonts/kgwakemeup-webfont.eot');
+    src: url('../fonts/kgwakemeup-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/kgwakemeup-webfont.woff2') format('woff2'),
+    url('../fonts/kgwakemeup-webfont.woff') format('woff'),
+    url('../fonts/kgwakemeup-webfont.ttf') format('truetype'),
+    url('../fonts/kgwakemeup-webfont.svg#kg_wake_me_upregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Corbel-Regular';
+    src: url('../fonts/Corbel_gdi.eot');
+    src: url('../fonts/Corbel_gdi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Corbel_gdi.woff') format('woff'),
+    url('../fonts/Corbel_gdi.ttf') format('truetype'),
+    url('../fonts/Corbel_gdi.svg#Corbel-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-25CA;
+}

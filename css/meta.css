@@ -1,0 +1,63 @@
+.my_meta_control .description
+{ display:none; }
+ 
+.my_meta_control label
+{ display:block; font-weight:bold; margin:6px; margin-bottom:0; margin-top:12px; }
+ 
+.my_meta_control label span
+{ display:inline; font-weight:normal; }
+ 
+.my_meta_control span
+{ color:#999; display:block; }
+ 
+.my_meta_control textarea, .my_meta_control input[type='text']
+{ margin-bottom:3px; width:99%; }
+ 
+.my_meta_control h4
+{ color:#999; font-size:1em; margin:15px 6px; text-transform:uppercase; }
+
+#image-preview,
+.image-preview{
+   margin:5px;
+}
+.uploader .button{
+    display: block;
+    margin: 5px;
+}
+.content-title{
+    margin-bottom: 10px;
+}
+
+#wp-contentaddfirst-editor-container,
+#wp-contentaddtwo-editor-container,
+#wp-contentaddthird-editor-container,
+#wp-contentaddfourth-editor-container{
+    display: inline-block;
+    float: right;
+}
+
+#post_second_column_include .uploader{
+    clear: both;
+    overflow: hidden;
+    margin: 20px 0;
+}
+#footer-home-left{
+    width: 45%;
+    float: left;
+}
+#footer-home-right{
+    width: 45%;
+    float: right;
+}
+#footer-home-bottom{
+    clear: both;
+    padding-top: 15px;
+}
+#wp-footercontentright-wrap{
+
+
+}
+#wp-footercontentleft-wrap{
+
+
+}

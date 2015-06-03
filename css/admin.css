@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+.calendarpicker {
+	float: left;
+	height: 30px;
+	background:url(../images/office_calendar.png) 225px 5px no-repeat #FFF;
+	cursor:pointer;
+	margin: 5px 0;
+	border: solid 1px #CCC;
+}
+.calendarpicker input {
+	float:left;
+	width: 250px;
+	height:100%;
+	border: none;
+	background: transparent;
+	cursor:pointer;
+	font-size:16px;
+}
+
+.button-holder {
+	display:block;
+	clear: both;
+	padding-top: 10px;
+}
+.button-container {
+	display: block;
+	clear:both;
+}
+#form-holder {
+	display:block;
+	padding-top: 10px;
+}
+#verify_form label.error { float: none; color: red; padding-left: .5em; vertical-align: top; display:inline; }
+span.requiredfield { padding-right: 5px; font-weight: bold; color: RED; }
+
+.infomsgAjax, .infomsgAjax2 {
+	clear:both;
+	background:url(../images/woc/updating.gif) no-repeat top left;
+	margin: 0;
+	font-size: 12px;
+	color:#4085D0;
+	padding: 8px 0 0 35px;
+	display:none;
+}
+.msgSuccess, .msgSuccessComment {
+	clear:both;
+	margin: 0;
+	font-size: 12px;
+	background-color:#FFC;
+	color:#4085D0;
+	padding: 5px;
+	border:solid 1px #FFF;
+	display: none;
+}
+
+.msgError {
+	clear:both;
+	margin: 0;
+	font-size: 12px;
+	background-color:#FFC;
+	color:#F00;
+	padding: 5px;
+	border:solid 1px #F00;
+	display: none;
+}
+
+.cursorpointer tr td {
+	cursor:pointer;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+#sortable li, #sortablePhoto li { cursor:move; }
+
+.dispnone { display:none; }
